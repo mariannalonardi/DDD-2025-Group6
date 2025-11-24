@@ -1,13 +1,19 @@
-# DDD-2025-Group6
+## DDD-2025-Group6
 Elisa Caridi, Marianna Lonardi, Giorgia Salmoiraghi
-## [Project title] 
 
-### Data Collection
-- Where did you get your data from? [source/s link]
-- What’s your data about? [describe]
-- Who is/are the sources/creators of your data?
+# The Evolution of Human Interstellar Communication Strategies
 
-### Data Organisation
-- Have you combined data from different sources? How did you merge them?</li>
-- What columns are more relevant for your project?</li>
-- Have you used any AI-based tool to understand or manipulate your data? if yes, what and how?</li>
+## Visualisation
+
+## Abstract 
+
+## Protocol diagram
+
+## What topic does the project address? 
+
+## What data have you considered? 
+
+### Link to the dataset
+https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G3gc/edit?gid=0#gid=0
+
+## What does the visualisation show?

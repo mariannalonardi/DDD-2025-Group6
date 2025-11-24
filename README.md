@@ -9,6 +9,8 @@ Elisa Caridi, Marianna Lonardi, Giorgia Salmoiraghi
 This project analyzes the progression of human interstellar messages over time, considering transmission techniques, target selection, and design strategies. The study specifically focuses on encoding types and purposes across different periods, distances in light-years, and projected arrival times of the messages. It examines the predominant communication modes and investigates whether transmission frequency is influenced by the complexity or digital nature of the message. Insights emerge from structured data and visualizations, identifying key messages that shaped communication approaches and revealing trends in technological evolution and strategic choices in interstellar messaging.
 
 ## Protocol diagram
+<img width="5253" height="2414" alt="Untitled diagram-2025-11-23-181245" src="https://github.com/user-attachments/assets/f7010503-26f6-4db4-b485-a6266488c9ac" />
+
 
 ## What topic does the project address? 
 The project addresses the topic of human interstellar communication, specifically investigating how messages sent by humans to potential extraterrestrial recipients have evolved over time. From our research question, that is "How have human‑sent interstellar messages evolved over time in terms of their transmission parameters, destinations, and design strategies, and which of these messages can be considered the most significant from a communication‑strategy perspective?", we examine changes in transmission techniques, target selection, encoding types, message purposes, distances and how technological and strategic considerations have influenced the design and delivery of these messages.

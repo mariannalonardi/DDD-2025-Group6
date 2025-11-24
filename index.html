@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <title>Interstellar Messages Timeline 3D</title>
 <style>
-/* STILI GENERALI E LAYOUT */
+
 *{box-sizing:border-box}
 body{margin:0;overflow:hidden;background:#0a0a12;font-family:'Courier New',monospace}
 canvas { position: absolute; top: 0; left: 0; }
 .css2d-container { position: absolute; top: 0; left: 0; pointer-events: none; }
-/* Overlay e Legenda: ingranditi */
+
 #overlay{position:fixed;bottom:20px;left:20px;color:#0ff;font-size:14px;background:rgba(0,20,30,0.8);padding:18px 22px;border-radius:4px;border:1px solid #0ff;box-shadow:0 0 30px rgba(0,255,255,0.3),inset 0 0 30px rgba(0,255,255,0.05);text-transform:uppercase;letter-spacing:1px;z-index: 10;}
 #overlay b{color:#0f0;text-shadow:0 0 10px #0f0}
 #legend{
@@ -22,13 +22,13 @@ canvas { position: absolute; top: 0; left: 0; }
 #legend h3{margin:0 0 14px;color:#0f0;text-shadow:0 0 10px #0f0;font-size:16px} 
 .leg-section{margin:18px 0 10px;color:#0f0;font-size:13px;border-bottom:1px solid rgba(0,255,255,0.3);padding-bottom:5px} 
 .leg-item{display:flex;align-items:center;margin:10px 0;color:#7fdbff;font-size:12px}
-/* Modifica per usare una linea al posto del puntino, mantenuta per consistenza con le richieste precedenti */
-.leg-line{width:20px;height:3px;margin-right:12px;box-shadow:0 0 10px currentColor;border-radius:1px;}
-/* Aggiornamento per la destinazione (dot o box) */
-.leg-dot{width:12px;height:12px;border-radius:50%;margin-right:12px;box-shadow:0 0 10px currentColor}
-.leg-box{width:10px;height:10px;margin-right:12px;transform:rotate(45deg)}
 
-/* InfoBox e Filtri: TITOLI AMMORBIDITI */
+.leg-line{width:20px;height:3px;margin-right:12px;box-shadow:0 0 10px currentColor;border-radius:1px;}
+
+.leg-dot{width:12px;height:12px;border-radius:50%;margin-right:12px;box-shadow:0 0 10px currentColor}
+.leg-box{width:10px;height:10px;margin-right:12px;transform:rotate(45deg);border-radius: 2px;}
+
+
 #infoBox{
     position:fixed;right:20px;top:20px;background:rgba(0,20,30,0.9);color:#0ff;
     padding:25px;border-radius:4px;max-width:450px;max-height:85vh;overflow-y:auto;
@@ -102,9 +102,9 @@ canvas { position: absolute; top: 0; left: 0; }
 <div class="leg-item"><div class="leg-line" style="background:#f80;color:#f80"></div>PHYSICAL PROBE</div>
 <div class="leg-item"><div class="leg-line" style="background:#a5f;color:#a5f"></div>RECEPTION/SETI</div>
 <div class="leg-section">// DESTINATION TYPE</div>
-<div class="leg-item"><div class="leg-line" style="background:#ff0;color:#ff0"></div>STAR SYSTEM</div>
-<div class="leg-item"><div class="leg-line" style="background:#f5a;color:#f5a"></div>PLANET/EXOPLANET</div>
-<div class="leg-item"><div class="leg-line" style="background:#5fa;color:#5fa"></div>STAR CLUSTER</div>
+<div class="leg-item"><div class="leg-dot" style="background:#ff0;color:#ff0"></div>STAR SYSTEM</div>
+<div class="leg-item"><div class="leg-dot" style="background:#f5a;color:#f5a"></div>PLANET/EXOPLANET</div>
+<div class="leg-item"><div class="leg-dot" style="background:#5fa;color:#5fa"></div>STAR CLUSTER</div>
 <div class="leg-item"><div class="leg-box" style="background:#a5f;border:1px solid #a5f;color:#a5f"></div>DEEP SPACE</div>
 <div class="leg-section">// DISTANCE IN LY</div>
 <div class="leg-item" style="display: block;">
@@ -113,7 +113,7 @@ canvas { position: absolute; top: 0; left: 0; }
     <span style="display: inline-block; vertical-align: middle; margin-left: 10px;">= LIGHT YEARS (LY)</span>
 </div>
 <div class="leg-item" style="color:#ffc85a; font-size: 11px; margin-top: 10px; border-top: 1px solid rgba(255, 200, 90, 0.2); padding-top: 8px;">
-  
+
 </div>
 </div>
 <div id="overlay"><b>◈ INSTRUCTIONS ◈</b><br>• Timeline = Years (1960-2012)<br>• Earth at center<br>• Distance = Light Years<br>• **Click destination for data**<br>• Drag · Scroll to zoom</div>
@@ -144,9 +144,7 @@ let isDragging=false,prevMouse={x:0,y:0},spherical={theta:0,phi:Math.PI/2},camDi
 let currentFilters = { type: 'ALL', dest_type: 'ALL' }; 
 
 
-// **********************************************
-// FUNZIONI DI UTILITY & FILTRO
-// **********************************************
+
 
 function createFilterHTML() {
     return `
@@ -288,9 +286,7 @@ function onDestinationClick(event) {
 }
 
 
-// **********************************************
-// INIZIALIZZAZIONE 3D (Scala Grande)
-// **********************************************
+
 
 function init(){
 scene=new THREE.Scene();
@@ -351,12 +347,12 @@ scene.add(ring2);
 function createTimeline(){
 const minYear=1960,maxYear=2012,yearRange=maxYear-minYear;
 const timelineLength=1200; 
-// 1960 a Z negativa (sinistra), 2012 a Z positiva (destra)
+
 const startZ=-timelineLength/2; 
 const endZ=timelineLength/2;  
 const linePts=[new THREE.Vector3(0,0,startZ),new THREE.Vector3(0,0,endZ)];
 const lineGeo=new THREE.BufferGeometry().setFromPoints(linePts);
-// Linea centrale bianca
+
 const lineMat=new THREE.LineBasicMaterial({color:0xffffff,transparent:true,opacity:0.8, linewidth: 2}); 
 const timeline=new THREE.Line(lineGeo,lineMat);
 scene.add(timeline);
@@ -367,7 +363,7 @@ scene.add(new THREE.Mesh(tubeGeo,tubeMat));
 const yearMarks=[1960,1970,1980,1990,2000,2010,2012];
 yearMarks.forEach(year=>{
 const t=(year-minYear)/yearRange;
-// Calcolo per l'asse Z che va da -600 (1960) a +600 (2012)
+
 const z=startZ+t*timelineLength; 
 const marker=new THREE.Mesh(new THREE.SphereGeometry(8,12,12),new THREE.MeshBasicMaterial({color:0x00ff88})); 
 marker.position.set(0,0,z);
@@ -386,7 +382,7 @@ labelDiv.style.textShadow='0 0 10px #00ff88';
 labelDiv.style.pointerEvents='none';
 labelDiv.textContent=year;
 const label=new THREE.CSS2DObject(labelDiv);
-// Posiziona l'etichetta dell'anno sotto la linea temporale
+
 label.position.set(0, -100, z); 
 scene.add(label);
 yearLabels.push(label);
@@ -441,19 +437,19 @@ destinations.push(group);
 
 const linePts=[new THREE.Vector3(0,0,z),new THREE.Vector3(x,y,z)];
 const lineGeo=new THREE.BufferGeometry().setFromPoints(linePts);
-// Spessore delle linee di collegamento impostato a 8
+
 const lineMat=new THREE.LineBasicMaterial({
     color:d.color,
     transparent:true,
     opacity:1.0, 
-    linewidth: 8 // NOTA: in Three.js standard, linewidth > 1 non funziona senza LineSegmentsGeometry
+    linewidth: 8 
 }); 
 const line=new THREE.Line(lineGeo,lineMat);
 line.userData={color:d.color};
 scene.add(line);
-connectionLines.push(line); // AGGIUNTO: mancava questo push!
+connectionLines.push(line); 
 
-// Etichetta Missione
+
 const missionDiv=document.createElement('div');
 missionDiv.style.color='#7fdbff';
 missionDiv.style.fontSize='14px';
@@ -518,9 +514,7 @@ renderer.domElement.addEventListener('wheel',e=>{camDist=Math.max(300,Math.min(1
 }
 
 
-// **********************************************
-// CICLO DI ANIMAZIONE
-// **********************************************
+
 
 function animate(){
 requestAnimationFrame(animate);

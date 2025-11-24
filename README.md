@@ -12,7 +12,6 @@ Elisa Caridi, Marianna Lonardi, Giorgia Salmoiraghi
 This project analyzes the progression of human interstellar messages over time, considering transmission techniques, target selection, and design strategies. The study specifically focuses on encoding types and purposes across different periods, distances in light-years, and projected arrival times of the messages. It examines the predominant communication modes and investigates whether transmission frequency is influenced by the complexity or digital nature of the message. Insights emerge from structured data and visualizations, identifying key messages that shaped communication approaches and revealing trends in technological evolution and strategic choices in interstellar messaging.
 
 ## Protocol diagram
-<img width="5253" height="2414" alt="Untitled diagram-2025-11-23-181245" src="https://github.com/user-attachments/assets/f7010503-26f6-4db4-b485-a6266488c9ac" />
 
 ```mermaid
 flowchart LR

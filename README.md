@@ -4,6 +4,7 @@ Elisa Caridi, Marianna Lonardi, Giorgia Salmoiraghi
 # The Evolution of Human Interstellar Communication Strategies
 
 ## Visualisation
+[Visualisation](https://mariannalonardi.github.io/DDD-2025-Group6/)
 
 ## Abstract 
 This project analyzes the progression of human interstellar messages over time, considering transmission techniques, target selection, and design strategies. The study specifically focuses on encoding types and purposes across different periods, distances in light-years, and projected arrival times of the messages. It examines the predominant communication modes and investigates whether transmission frequency is influenced by the complexity or digital nature of the message. Insights emerge from structured data and visualizations, identifying key messages that shaped communication approaches and revealing trends in technological evolution and strategic choices in interstellar messaging.

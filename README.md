@@ -141,11 +141,15 @@ Main link:
 https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G3gc/edit?gid=0#gid=0
 
 ## What does the visualisation show?
+- #### Spatial Distribution of Destinations and Distances
+
+  The interactive map highlights a prevalence of relatively nearby destinations, typically between 10 and 60 light-years away. This trend suggests a shift from earlier experiments, in which messages were sometimes directed toward much more remote regions of deep space. Today, transmissions tend to target closer systems, reflecting a more pragmatic approach linked to the actual likelihood that extraterrestrial receivers could detect and decode them.
+  
 - #### Prevalence of Radio-Based Communication [🔗](https://public.flourish.studio/visualisation/26411061/)
 
    The analysis shows that almost all interstellar messages rely on radio as their primary transmission medium. This reflects the technological maturity of radio communication, its cost-effectiveness, and its ability to cover vast distances with high directional precision.
 
--  #### Growing Dominance of Digital and Hybrid Encodings
+-  #### Growing Dominance of Digital and Hybrid Encodings  [🔗](https://public.flourish.studio/visualisation/26412583/)
 
    Visualizations of encoding types reveal a clear shift from symbolic or analog modes toward digital or multimodal encodings. After 1999, the use of mixed formats—combining images, linguistic structures, and musical content—becomes predominant, signalling an increase in informational complexity and expressive capacity.
 
@@ -160,7 +164,3 @@ https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G
 -  #### Relationship Between Frequency and Encoding Type [🔗](https://public.flourish.studio/visualisation/26411110/)
 
       Frequency data show that digital and complex messages tend to be transmitted at higher frequencies, whereas analog or symbolic messages use lower ones. This suggests an association between frequency choice and the informational complexity of the message.
-
-- #### Spatial Distribution of Destinations and Distances
-
-  The interactive map highlights a prevalence of relatively nearby destinations, typically between 10 and 60 light-years away. This trend suggests a shift from earlier experiments, in which messages were sometimes directed toward much more remote regions of deep space. Today, transmissions tend to target closer systems, reflecting a more pragmatic approach linked to the actual likelihood that extraterrestrial receivers could detect and decode them.

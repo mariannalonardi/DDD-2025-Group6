@@ -105,7 +105,6 @@ Main link:
 - https://en.wikipedia.org/wiki/List_of_interstellar_radio_messages?utm_source
 - https://it.wikipedia.org/wiki/Voyager_Golden_Record?utm_source
 
-<img width="1914" height="229" alt="image" src="https://github.com/user-attachments/assets/256e53e6-af27-4a40-a886-fdce34136d62" />
 ## Dataset
 
 | Year Sent | Project Name                                      | Communication Type     | Institution                                | frequency_MHz | Transmitter Power (kW) | Destination Name                            | Destination Type          | Year Arrival | Distance (ly) | Encoding Type                                      | Country        | Purpose                                                      | Purpose_2      |

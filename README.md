@@ -4,7 +4,7 @@ Elisa Caridi, Marianna Lonardi, Giorgia Salmoiraghi
 # The Evolution of Human Interstellar Communication Strategies
 
 ## Visualisation
-<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/5aa29e03-88a7-412c-bb62-907118caebf9" />
+<img width="1919" height="862" alt="image" src="https://github.com/user-attachments/assets/041fbd50-379e-4621-ac2d-081e96fe46a9" />
 
 [Visualisation](https://mariannalonardi.github.io/DDD-2025-Group6/)
 

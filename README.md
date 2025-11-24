@@ -157,7 +157,7 @@ https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G
     
     This progression indicates a broadening of the sociocultural motivations behind interstellar communication.
 
--  #### Relationship Between Frequency and Encoding Type
+-  #### Relationship Between Frequency and Encoding Type [🔗](https://public.flourish.studio/visualisation/26411110/)
 
       Frequency data show that digital and complex messages tend to be transmitted at higher frequencies, whereas analog or symbolic messages use lower ones. This suggests an association between frequency choice and the informational complexity of the message.
 

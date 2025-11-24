@@ -11,9 +11,7 @@ This project analyzes the progression of human interstellar messages over time, 
 ## Protocol diagram
 
 ## What topic does the project address? 
-The project addresses the topic of human interstellar communication, specifically investigating how messages sent by humans to potential extraterrestrial recipients have evolved over time. It examines changes in transmission techniques, target selection, encoding types, message purposes, distances and how technological and strategic considerations have influenced the design and delivery of these messages.
-
-Our research question: "How have human‑sent interstellar messages evolved over time in terms of their transmission parameters, destinations, and design strategies, and which of these messages can be considered the most significant from a communication‑strategy perspective?"
+The project addresses the topic of human interstellar communication, specifically investigating how messages sent by humans to potential extraterrestrial recipients have evolved over time. From our research question, that is "How have human‑sent interstellar messages evolved over time in terms of their transmission parameters, destinations, and design strategies, and which of these messages can be considered the most significant from a communication‑strategy perspective?", we examine changes in transmission techniques, target selection, encoding types, message purposes, distances and how technological and strategic considerations have influenced the design and delivery of these messages.
 
 ## What data have you considered? 
 The project considers a mix of publicly accessible sources documenting human-sent interstellar messages, including:

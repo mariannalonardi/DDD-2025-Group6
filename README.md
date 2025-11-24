@@ -136,26 +136,26 @@ Main link:
 https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G3gc/edit?gid=0#gid=0
 
 ## What does the visualisation show?
-- Prevalence of Radio-Based Communication
+- #### Prevalence of Radio-Based Communication
 
    The analysis shows that almost all interstellar messages rely on radio as their primary transmission medium. This reflects the technological maturity of radio communication, its cost-effectiveness, and its ability to cover vast distances with high directional precision.
 
-- Growing Dominance of Digital and Hybrid Encodings
+-  #### Growing Dominance of Digital and Hybrid Encodings
 
    Visualizations of encoding types reveal a clear shift from symbolic or analog modes toward digital or multimodal encodings. After 1999, the use of mixed formats—combining images, linguistic structures, and musical content—becomes predominant, signalling an increase in informational complexity and expressive capacity.
 
-- Thematic Evolution of Message Purpose Over Time
+-  #### Thematic Evolution of Message Purpose Over Time
+   The timeline highlights three main phases:
+    - 1960–1980: prevalence of scientific and symbolic intents associated with early SETI experiments.
+    - 1990–2005: emergence of encyclopedic and highly structured projects aimed at transmitting knowledge (e.g., Cosmic Call).
+    - 2008–present: substantial rise in cultural and participatory messages.
+    
+    This progression indicates a broadening of the sociocultural motivations behind interstellar communication.
 
-  The timeline highlights three main phases:
-- 1960–1980: prevalence of scientific and symbolic intents associated with early SETI experiments.
-- 1990–2005: emergence of encyclopedic and highly structured projects aimed at transmitting knowledge (e.g., Cosmic Call).
-- 2008–present: substantial rise in cultural and participatory messages.
-This progression indicates a broadening of the sociocultural motivations behind interstellar communication.
+-  #### Relationship Between Frequency and Encoding Type
 
-- Relationship Between Frequency and Encoding Type
+      Frequency data show that digital and complex messages tend to be transmitted at higher frequencies, whereas analog or symbolic messages use lower ones. This suggests an association between frequency choice and the informational complexity of the message.
 
-Frequency data show that digital and complex messages tend to be transmitted at higher frequencies, whereas analog or symbolic messages use lower ones. This suggests an association between frequency choice and the informational complexity of the message.
+- #### Spatial Distribution of Destinations and Distances
 
-- Spatial Distribution of Destinations and Distances
-
-The interactive map highlights a prevalence of relatively nearby destinations, typically between 10 and 60 light-years away. This trend suggests a shift from earlier experiments, in which messages were sometimes directed toward much more remote regions of deep space. Today, transmissions tend to target closer systems, reflecting a more pragmatic approach linked to the actual likelihood that extraterrestrial receivers could detect and decode them.
+  The interactive map highlights a prevalence of relatively nearby destinations, typically between 10 and 60 light-years away. This trend suggests a shift from earlier experiments, in which messages were sometimes directed toward much more remote regions of deep space. Today, transmissions tend to target closer systems, reflecting a more pragmatic approach linked to the actual likelihood that extraterrestrial receivers could detect and decode them.

@@ -159,3 +159,6 @@ https://docs.google.com/spreadsheets/d/1PBxZmiyp0CESrsS1gliosT1f5524Eus-cz922S-G
 - #### Spatial Distribution of Destinations and Distances
 
   The interactive map highlights a prevalence of relatively nearby destinations, typically between 10 and 60 light-years away. This trend suggests a shift from earlier experiments, in which messages were sometimes directed toward much more remote regions of deep space. Today, transmissions tend to target closer systems, reflecting a more pragmatic approach linked to the actual likelihood that extraterrestrial receivers could detect and decode them.
+
+[Graph](https://public.flourish.studio/visualisation/26412403/)
+

@@ -21,7 +21,7 @@ config:
 flowchart LR
     Topic["<b>Topic</b>:<br>UFO communication"] --> RQ_Main["<b>Research question</b>:<br>How have human-sent interstellar messages evolved over time in their transmission parameters, destinations, and design strategies,<br>and which messages are most significant from a communication-strategy perspective?"]
     RQ_Main --> Action_Main{"<b>Action</b>:<br>Analyzed and merged multiple datasets about human–UFO communication"} & Action_Failed{"<b>Discarded action</b>:<br>Focusing on the country where messages originate was not relevant"}
-    Action_Main --> Tool1(("<b>Tool 1</b>:<br>Data preprocessing / filtering with Excel"))
+    Action_Main --> Tool1(("<b>Tool 1</b>:<br>Data preprocessing / filtering with Googlesheets"))
     Tool1 --> Dataset[("<b>Dataset</b><br>Interstellar Messages")]
     Dataset --> AllCols["<b>All data columns</b><br>
       Year<br>

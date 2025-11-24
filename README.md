@@ -14,6 +14,10 @@ This project analyzes the progression of human interstellar messages over time, 
 ## Protocol diagram
 
 ```mermaid
+---
+config:
+  layout: fixed
+---
 flowchart LR
     Topic["<b>Topic</b>:<br>UFO communication"] --> RQ_Main["<b>Research question</b>:<br>How have human-sent interstellar messages evolved over time in their transmission parameters, destinations, and design strategies,<br>and which messages are most significant from a communication-strategy perspective?"]
     RQ_Main --> Action_Main{"<b>Action</b>:<br>Analyzed and merged multiple datasets about human–UFO communication"} & Action_Failed{"<b>Discarded action</b>:<br>Focusing on the country where messages originate was not relevant"}
@@ -45,12 +49,13 @@ flowchart LR
     Code type"]
     SelectedCols --> Tool2(("<b>Tool 2</b>:<br>Visual Studio Code and Flourish"))
     Tool2 --> Action_Tool2{"<b>Action</b>:<br>Processed and structured data for visualization"}
-    Action_Tool2 --> DataViz["<b>Data visualization</b>:<br>Evolution of Interstellar Messages Over Time (1960–2023)"]
-    DataViz --> Insights["<b>Insight / Findings</b>:<br>From technical experimentation to cultural messaging
-
-More complexity, not just more power
-
-More ambitious and targeted goals"]
+    Action_Tool2 --> DataViz["<b>Data visualization</b>:<br>The Evolution of Human Interstellar Communication Strategies"]
+    DataViz --> Insights["<b>Insight / Findings</b>:<br>
+Prevalence of Radio-Based Communication<br>
+Growing Dominance of Digital and Hybrid Encodings<br>
+Thematic Evolution of Message Purpose Over Time<br>
+Relationship Between Frequency and Encoding Type<br>
+Spatial Distribution of Destinations and Distances"]
     Topic -.-> RQ_Optional1["<b>Considered question</b>:<br>Is there a correlation between UFO shape and weather conditions (fog, clouds, light pollution)?"] & RQ_Optional2["<b>Considered question</b>:<br>Are there countries with strong UFO belief but few reported sightings,<br>and what cultural or environmental factors explain this?"]
     RQ_Optional1 -.-> Action_Optional1{"<b>Action</b>:<br>Analyzed dataset on UFO shapes and weather patterns"}
     RQ_Optional2 -.-> Action_Optional2{"<b>Action</b>:<br>Compared belief levels with sighting reports across countries"}
